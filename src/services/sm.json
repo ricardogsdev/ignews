@@ -1,0 +1,4 @@
+{
+    "apiEndpoint": "https://ignews1805.prismic.io/api/v2",
+    "localSliceSimulatorURL": "http://localhost:9999"
+}
