@@ -1,10 +1,10 @@
 # <center>Blog News - ig.news</center>
 
-Essa aplicação faz parte do curso da Rocketseat - Trilha ReactJs 
-Nesse módulo aprendemos como o Next.js transforma a nossa maneira de desenvolver aplicações front-end e descobriremos conceitos importantes como SSR e SSG.
-Aprendemos tambem a integrar a aplicação com a API do Stripe e criar uma assinatura.
-Durante esse módulo eaprendemod como o front-end se transformou nos últimos anos com a possibilidade de termos funções back-end (serverless) executando em um ambiente front-end.
-É muito comum o desenvolvimento de aplicações front-end que não estão conectadas a um único back-end hoje em dia, por isso, aprendemos o conceito de JAMStack e como conectar nosso front-end com um CMS.
+<p>Essa aplicação faz parte do curso da Rocketseat - Trilha ReactJs </p>
+<p>Nesse módulo aprendemos como o Next.js transforma a nossa maneira de desenvolver aplicações front-end e descobriremos conceitos importantes como SSR e SSG.</p>
+<p>Aprendemos tambem a integrar a aplicação com a API do Stripe e criar uma assinatura.</p>
+<p>Durante esse módulo eaprendemod como o front-end se transformou nos últimos anos com a possibilidade de termos funções back-end (serverless) executando em um ambiente front-end.</p>
+<p>É muito comum o desenvolvimento de aplicações front-end que não estão conectadas a um único back-end hoje em dia, por isso, aprendemos o conceito de JAMStack e como conectar nosso front-end com um CMS.</p>
 
 ## Tela Inicial
 
