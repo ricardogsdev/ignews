@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# Stripe #
+/stripe-cli/
+
 # production
 /build
 
