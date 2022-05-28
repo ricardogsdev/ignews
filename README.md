@@ -8,7 +8,7 @@ Durante esse módulo eaprendemod como o front-end se transformou nos últimos an
 
 ## Tela Inicial
 
-<img src="#" alt="tela" style="max-width:100%;">
+<img src="https://user-images.githubusercontent.com/87340421/170842467-d43d3c09-71dc-4f6f-a724-c51289a299d6.png" alt="tela" style="max-width:100%;">
 
 ## Linguagens e tecnologias utilizadas
 <p align="left"> 
@@ -59,6 +59,7 @@ Durante esse módulo eaprendemod como o front-end se transformou nos últimos an
 <li>Instalação e configuração do nextjs</li>
 <li>Criação do template conforme o figma</li>
 <li>Utilização dos styles com scss</li>
+<li>Autenticação pelo Github</li>
 <li>Implementação da API do Stripe</li>
 <li>Implementação da API do banco faunaDB</li>
 <li>Implementação da integração com o Headless cms - Prismic</li>
