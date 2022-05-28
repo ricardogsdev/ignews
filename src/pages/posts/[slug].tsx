@@ -1,7 +1,7 @@
-import { GetServerSideProps } from "next";
+import { GetServerSideProps, NextApiRequest, PreviewData } from "next";
 import { getSession } from "next-auth/react";
 import Head from "next/head";
-import { RichText } from "prismic-dom";
+import { RichText } from 'prismic-dom';
 import { createClient } from '../../services/prismic';
 
 import styles from './post.module.scss';
@@ -27,7 +27,7 @@ export default function Post({ post }: PostProps) {
     return (
         <>
             <Head>
-                <title>{post.title | Ignews}</title>
+                <title>{post.title} | Ignews</title>
             </Head>
 
             <main className={styles.container}>
@@ -59,14 +59,16 @@ export const getServerSideProps = async ({ previewData, params, req }: ServerSid
 
     const { slug } = params
     const client = createClient({ previewData })
+    
 
     const response = await client.getByUID('posts', slug)
+    const PrismicDOM = require('prismic-dom')
 
     const post = {
         slug: response.uid,
-        title: response.data.title,
-        content: RichText.asHtml(response.data.content),
-        updated_at: new Date(response.last_publication_date).toLocaleDateString('pt-PT', {
+        title: response.data.slices[0].primary.title[0].text,
+        content: PrismicDOM.RichText.asHtml(response.data.slices[0].primary.content),//response.data.slices[0].primary.content.find((content: any) => content.type === 'paragraph')?.text ?? '',
+        updatedAt: new Date(response.last_publication_date).toLocaleDateString('pt-BR', {
             year: 'numeric',
             month: 'long',
             day: '2-digit',
